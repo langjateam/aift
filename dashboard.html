@@ -397,7 +397,7 @@
     );
 
     // Socket.IO for real-time sensor data
-    const socket = io();
+    const socket = io(http://kaluman.koyeb.app/endpoint);
     socket.on('newData', (data) => {
       console.log('New sensor data:', data);
       const updateChart = (chart, value) => {
